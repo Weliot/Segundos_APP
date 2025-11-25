@@ -1,0 +1,19 @@
+# Ignorar Front-end (Node)
+frontend/node_modules/
+frontend/build/
+frontend/.env
+frontend/.env.local
+frontend/npm-debug.log*
+
+# Ignorar Back-end (Java/Maven)
+backend/target/
+backend/.mvn/wrapper/maven-wrapper.jar
+backend/**/*.class
+backend/help.md
+
+# Arquivos de Sistema/IDE
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
